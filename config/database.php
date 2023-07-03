@@ -119,6 +119,15 @@ return [
     |
     */
 
+    /*
+    |--------------------------------------------------------------------------
+    | Service Bus implementation
+    |--------------------------------------------------------------------------
+    | How do we implement service bus queueing instead of redis?
+    |
+    |
+    */
+
     'redis' => [
 
         'client' => env('REDIS_CLIENT', 'phpredis'),
